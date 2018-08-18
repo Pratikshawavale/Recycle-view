@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgStudent"
+        android:layout_marginRight="10dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:textSize="15sp"
+        android:layout_toRightOf="@+id/imgStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/valName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtName"
+        android:layout_toRightOf="@+id/txtName"
+        android:layout_marginRight="10dp"
+        android:text="Pratiksha"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtCollage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgStudent"
+        android:text="Collage"
+        android:layout_marginRight="10dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/valCollage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtCollage"
+        android:layout_toRightOf="@+id/txtCollage"
+        android:text="MIT"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/txtCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCollage"
+        android:layout_marginRight="10dp"
+        android:text="Course"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/valCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtCourse"
+        android:layout_toRightOf="@+id/txtCourse"
+        android:text="BE"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtBranch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCourse"
+        android:layout_marginRight="10dp"
+        android:text="Branch"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/valBranch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtBranch"
+        android:layout_toRightOf="@+id/txtBranch"
+        android:text="Computer"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtBranch"
+        android:layout_marginRight="10dp"
+        android:text="Address"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/valAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtAddress"
+        android:layout_toRightOf="@+id/txtAddress"
+        android:text="Pune"
+        android:textSize="15sp" />
+
+
+
+</RelativeLayout>
